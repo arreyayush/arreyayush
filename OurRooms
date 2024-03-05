@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="akhilesh1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .col-sm {
+            & :hover {
+                box-shadow: 0 6px 18px 0 rgba(#000, 0.1);
+                transform: translateY(-8px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navb h-nav-resp">
+        <div class="leftnav">
+            <img src="logoimage.png" height="70px" width="200px">
+        </div>
+        <ul class="rightnav v-class-resp">
+            <!-- <li><a href="#">Home</a></li> -->
+            <!-- <li><a href="#">About us</a></li>
+            <li><a href="#">contact us</a></li> -->
+            <!-- <li><a href="#"></a></li> -->
+            <li><a href="login page.html"><button>Login</button></a></li><span>|</span>
+            <li><a href="form2.html"><button>Register</button></a></li>
+            <!-- <li><a href="#">Help</a></li> -->
+            <!-- <li><a href="#">Privacy policy</a></li> -->
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="bd">
+        <img src="https://images7.alphacoders.com/111/1113336.jpg" height="600px" width="100%">
+    </div>
+    <!-- <div class="akmain">
+        <div class="akhead">
+            <h1>View rooms near <span>Your college</span></h1>
+        </div>
+        <div class="akcolleges">
+            <div class="akcollege">
+                <a href=""><img
+                        src="https://scontent.fbho5-1.fna.fbcdn.net/v/t39.30808-6/234709945_130170775962227_4942567866705358453_n.jpg?stp=dst-jpg_s600x600&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AxNGLkdku9cAX-Qu8Tv&_nc_ht=scontent.fbho5-1.fna&oh=00_AfDR-mavaxvnTuDS5EZln9OG4kz8AaxvL7grjfjOU0O0rA&oe=64ECFA25"
+                        alt=""  height="250" width="300"></a><P>DR.BHIMRAO AMBEDKER POLYTECHNIC COLLEGE</P>
+            </div>
+            <div class="akcollege">
+                <a href="#"></a><img
+                    src="https://images.collegedunia.com/public/college_data/images/appImage/1487654639Untitled.jpg?h=117&w=360&mode=crop"
+                    alt=""  height="250" width="300"><P>SCIENCE COLLEGE</P>
+            </div>
+            <div class="akcollege">
+                <a href="#"></a><img src="https://universitykart.com/Content/upload/admin/buumaub4.eh2.jpg" alt=""  height="250" width="300"><P>ITM</P>
+            </div>
+            <div class="akcollege">
+                <a href="#"></a> <img
+                    src="https://icolleges.in/wp-content/uploads/2020/12/298.jpg"
+                    alt="" height="250" width="300" ><P>MITS</P>
+            </div>
+        </div>
+        <div class="ak">
+           <button onclick="Sametab()"><a href="ak2.html">view more</a></button>
+        </div> -->
+        <div class="container">
+            <h1 style="text-align: center; font-size: 50px;">Veiw rooms near<span style="color: #2bae66;"> your college
+                </span></h1>
+            <div class="row">
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://r2.community.samsung.com/t5/image/serverpage/image-id/1957763i3D3FCCE267F8EF5E?v=v2"
+                            height="170px" width="150px"></a>
+                    <p>Maharani Laxmi Bai Government College of Excellence,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p>Dr.Bhim Ambedker Polytechnic College,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://images.collegedunia.com/public/image/af6fdefa4ac3e0e7dfaf698bc7ccd386.png?tr=w-847,h-613,c-force"
+                            height="170px" width="150px"></a>
+                    <p> Jiwaji University,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBMSzhmnCb69jvn89th4VnCJsccf6l9njUuq9E4K5GYnuV10Uubuv7xzWelilBPvWeLpU&usqp=CAU"
+                            height="170px" width="150px"></a>
+                    <p> Gwalior Nursing College,gwalior </p>
+                </div>
+                <!-- <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> ITM University,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> Madhav Institute of Technology and Science College,gwalior </p>
+                </div> -->
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://images.shiksha.com/mediadata/images/1491988114phpEr6Aed_g.jpg" height="170px"
+                            width="150px"></a>
+                    <p> Gwalior Engineering College</p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC0N-mincGlC8iqjpCmHF_F5MXpbTTyjCsI7GrxjMb8fy3nEzvYjn6KUy_AVLyM6iS_Jg&usqp=CAU"
+                            height="170px" width="150px"></a>
+                    <p> Gwalior Institute of Information Technology and Management</p>
+                </div>
+    
+    
+                <!-- <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> Government Autonomous Post Graduate College,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> Scindia Kanya Vidyalaya College,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> Birla Institute of Technology and Science (BITS) College,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p> Gwalior Glory High School and Junior College,gwalior </p>
+                </div> -->
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://img.collegedekhocdn.com/media/img/news/Expected_Good_Rank_in_JEE_Main_for_IIITM_Gwalior_B.Tech_Admission.jpg"
+                            height="170px" width="150px"></a>
+                    <p> Atal Bihari Vajpayee Indian Institute of Information Technology and Management college,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://images.collegedunia.com/public/college_data/images/campusimage/1653113180DSC_0207.JPG"
+                            height="170px" width="150px"></a>
+                    <p>Shri Ram College of Engineering and Management,gwalior </p>
+                </div>
+                <!-- <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p>Gwalior Mansarovar College,gwalior </p>
+                </div> -->
+                <div class="col-sm">
+                    <a href="empoly.html" ><img style="border-radius: 10px;"
+                            src="https://krglegalstudies.files.wordpress.com/2021/12/img_20211230_085414.jpg?w=966"
+                            height="170px" width="150px"></a>
+                    <p>Kamla Raja Girls Government Post Graduate College,gwalior </p>
+                </div>
+                <!-- <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p>Government College of Physical Education,gwalior </p>
+                </div> -->
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://www.static-contents.youth4work.com/university/Documents/Colleges/newsEvent/2927065f-aeff-4b0e-9e39-302b6d01ca52.jpg"
+                            height="170px" width="150px"></a>
+                    <p> Gwalior Institute of Computer Technology and Science,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://www.myentranceexam.in/wp-content/uploads/2020/07/LNIPE-Admission.jpg" height="170px"
+                            width="150px"></a>
+                    <p> Lakshmibai National Institute of Physical Education,gwalior </p>
+                </div>
+                <div class="col-sm">
+                    <a href="empoly.html"><img style="border-radius: 10px;"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvJwQmw9qM1N4cNiHOYbEVhWeIEjej9QHoruAFUICAcwC93geoiMQ1uqx_e7JysmCJCs&usqp=CAU"
+                            height="170px" width="150px"></a>
+                    <p>Government Women's Polytechnic College,gwalior </p>
+                </div>
+                <!-- <div class="col-sm">
+                    <a><img style="border-radius: 10px;"
+                            src="https://i.ytimg.com/vi/LvlOiVyid5c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGEsgXyhlMA8=&rs=AOn4CLCa2XNGoIcNI5w8k2NzjQAzUD8TEg"
+                            height="170px" width="150px"></a>
+                    <p>Gwalior Institute of Management and Technology,gwalior </p>
+                </div> -->
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    
+
+    </div>
+    <footer>
+        <div class="row1">
+            <div class="col">
+                <img src="lllo.png" class="footer_logo">
+                <p class="footer_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore harum molestias nesciunt, 
+                    doloremque magni aspernatur iste blanditiis, fugiat quaerat accusamus ut, vero tempore. 
+                    Fugiat, illum!
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="bottom_line"><span></span></div></h3>
+                <p>Dr. Bhim Rao Ambedkar </p>
+                <p>Polytechnic College</p>
+                <p>Gwlior, 474001</p>
+                <p class="footer_email">21brai4031@polygwalior.ac.in</p>
+                <h4>91+7000655195</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="bottom_line"><span></span></div></h3>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="animetion.html">Privacy Policy</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="bottom_line"><span></span></div></h3>
+                
+                <div class="social_icons">
+                    <ion-icon class="social_icon" name="logo-facebook"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-whatsapp"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-twitter"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Cosas Learning Ⓒ 2022 - All Rights Reserved</p>
+     </footer> 
+</body>
+</html>
